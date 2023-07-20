@@ -7,7 +7,8 @@ Features
 Installation
 Usage
 Technologies Used
-Time Taken
+Time Taken 
+Live demo
 
 # Features :
 Fetches user data from the ReqRes API and displays it in a grid layout.
@@ -31,3 +32,6 @@ Create React App: Boilerplate for creating React applications.
 
 # Time Taken :
 The time taken to complete this assignment was approximately 1day.
+
+#Live demo
+https://display-user-details.netlify.app/
