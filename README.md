@@ -9,24 +9,25 @@ Usage
 Technologies Used
 Time Taken
 
-Features :
+# Features :
 Fetches user data from the ReqRes API and displays it in a grid layout.
 Provides a "Get Users" button in the navbar to fetch the data on demand.
 Shows a loader while fetching data from the API.
 
-Installation :
+#Installation :
 To run the application locally, follow these steps:
 git clone or download the code 
-next npm install 
+next 
+# npm install 
 
-Usage :
+# Usage :
 To start the development server and run the application, use the following command
-npm start
+# npm start
 
-Technologies Used :
+# Technologies Used :
 React.js: Front-end JavaScript library for building user interfaces.
 Axios: HTTP client for making API requests.
 Create React App: Boilerplate for creating React applications.
 
-Time Taken :
+# Time Taken :
 The time taken to complete this assignment was approximately 1day.
