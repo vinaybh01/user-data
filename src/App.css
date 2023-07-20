@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Urbanist", sans-serif;
+  overflow: hidden;
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #dcdcdc;
+  border-bottom-width: 2px;
+  height: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar .brandname {
+  font-size: 24px;
+  color: #7a7b7c;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.navbar .getusers-button button {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar .getusers-button button:hover {
+  background-color: #7a7b7c;
+  color: antiquewhite;
+  padding: 12px;
+}
+
+/* Users Grid */
+.users .grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.users .grid-image {
+  width: 270px;
+  height: 250px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.users .user {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.users .grid-text {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: rgba(255, 255, 255, 0.705);
+  transition: 0.3s;
+  width: 270px;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.grid-text h3 {
+  padding: 5px 10px;
+  padding-bottom: 10px;
+}
+
+.grid-text p {
+  padding: 5px 10px;
+  padding-bottom: 10px;
+}
+
+.users .user:hover .grid-text {
+  transform: translateY(0%);
+}
+
+.users .user {
+  transition: 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.users .user:hover {
+  transform: scale(1.1);
+}
+
+/* Loader */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
